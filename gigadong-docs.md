@@ -1,8 +1,3 @@
----
-title: "GigaDong Documentation"
-description: "The ultimate on-chain dick measuring contest on Sei Network. Grow your PP, collect dongles, and earn $SCHLONG tokens in the most provocative crypto game ever created."
----
-
 # GigaDong Documentation
 
 ## 🍆 Welcome to GigaDong
@@ -329,7 +324,8 @@ Earn from your referral network:
 
 All contracts are deployed on Sei Network and verified on SeiScan.
 
-```text
+**Official Addresses:**
+```
 SchlongToken: [To be deployed]
 GigaDongMain: [To be deployed]
 DongleNFT: [To be deployed]
@@ -379,8 +375,8 @@ A: Earnings depend on your cum rate share of the network. Early players with goo
 **Q: When are rewards distributed?**
 A: Every block (~0.5 seconds), proportional to your network share.
 
-**Q: Do I need to claim manually?
-**A: Yes, click the claim button to receive your accumulated $SCHLONG.
+**Q: Do I need to claim manually?**
+A: Yes, click the claim button to receive your accumulated $SCHLONG.
 
 ### Technical Questions
 

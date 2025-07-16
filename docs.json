@@ -16,9 +16,7 @@
           {
             "group": "Guide",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           }
         ]
