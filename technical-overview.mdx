@@ -7,37 +7,12 @@ description: "Contracts, security, and developer resources."
 
 ### Smart Contract Stack
 
-| Contract | Purpose |
-|----------|---------|
-| **GigaDongMain** | PP data, juice tracking, reward distribution (upgradeable). |
-| **DongleNFT** | ERC-721 with both mining & utility stats. |
-| **BlindBox** | Random box sales + minting. |
-| **Marketplace** | P2P order book, escrow, fee handling. |
-| **$SCHLONG** | Fixed-supply ERC-20 with burn. |
+| Contract         | Purpose                                       |
+| ---------------- | --------------------------------------------- |
+| **GigaDongMain** | PP data, juice tracking, reward distribution. |
+| **DongleNFT**    | ERC-721 with both mining & utility stats.     |
+| **BlindBox**     | Random box sales \+ minting.                  |
+| **Marketplace**  | P2P order book, escrow, fee handling.         |
+| **\$SCHLONG**    | Fixed-supply ERC-20 with burn.                |
 
-All contracts are written in **Solidity ≥0.8.21** and deployed on **Sei EVM**.
-
-### Key Mechanics
-
-1. **Per-block rewards** – Calculated lazily on user actions.
-2. **Juice depletion / recharge** – Net drain formula on-chain.
-3. **Three-tier referrals** – Prevents circular reference.
-4. **Whitelist discounts** – Per address & collection.
-
-### Security
-
-- Reentrancy guards (`nonReentrant`).
-- EOA-only modifier for BlindBox.
-- `Ownable` + Timelock for admin.
-- Professional audit before main-net.
-
-### Developer Resources
-
-```bash
-# Clone frontend
-pnpm create gigadong
-cd gigadong
-pnpm dev
-```
-
-Contract addresses will be published post-deployment. 
+All contracts are written in **Solidity **and deployed on **Sei EVM**.
