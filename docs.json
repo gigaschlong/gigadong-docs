@@ -16,7 +16,31 @@
           {
             "group": "Guide",
             "pages": [
-              "index"
+              "index",
+              "getting-started"
+            ]
+          },
+          {
+            "group": "Gameplay",
+            "pages": [
+              "game-mechanics",
+              "dongles-collections",
+              "strategy"
+            ]
+          },
+          {
+            "group": "Economy",
+            "pages": [
+              "tokenomics",
+              "marketplace",
+              "referral"
+            ]
+          },
+          {
+            "group": "Tech",
+            "pages": [
+              "technical-overview",
+              "faq"
             ]
           }
         ]

@@ -1,0 +1,64 @@
+---
+title: "Dongles & Collections"
+description: "NFT mining equipment, stats, blind boxes, and set bonuses."
+---
+
+## 🎰 Dongles & Collections
+
+### What Are Dongles?
+
+Dongles are **ERC-721 NFTs** that you equip to PP slots to increase your **cum rate** and gain utility effects.
+
+### Dongle Stats
+
+| Category | Description |
+|----------|-------------|
+| **Shots/block** | Direct cum-rate contribution (0-7,500) |
+| **Juice/block** | Juice consumption (0 ‑ 1.0) |
+| **Juice Bonus %** | Increases max juice capacity |
+| **Juice Regen %** | Restores juice per block |
+| **Drain Reduction %** | Reduces total drain |
+| **Cum Rate Bonus %** | Multiplies all cum rates |
+
+### Blind Box System
+
+1. Buy a box with **$SCHLONG + 10 SEI** (price varies by collection).
+2. RNG uses `blockhash(block.number-1) + msg.sender + nonce` → immune to miner manipulation.
+3. 1 % chance to pull a **secret rare** (3× stats / utility).
+4. EOA-only to block bots.
+
+---
+
+### Collection Categories
+
+#### Mining-Focused (ID 1-15)
+
+| Collection | PP Req | Box Price | Supply | Cum-Rate Range |
+|------------|--------|-----------|--------|----------------|
+| Classic Condoms | tiny pp | 50 $SCHLONG | 10,000 | 15-45 |
+| … | … | … | … | … |
+| SCHLONG Genesis | infinity pp | 25,000 $SCHLONG | 69 | 2,500-7,500 |
+
+<Note>
+The table above is abbreviated—see the full PRD for complete collection data.
+</Note>
+
+#### Utility-Focused (ID 16-19)
+
+| Collection | Effect (Regular) | Effect (Secret) |
+|------------|-----------------|-----------------|
+| Stamina Reservoirs | +10 % juice cap | +30 % |
+| Performance Enhancers | −5 % drain | −15 % |
+| Pleasure Amplifiers | +10 % cum rate | +30 % |
+| Juice Fountains | +0.001 % regen | +0.002 % |
+
+### Set Bonuses
+
+| Items Equipped | Cum-Rate Bonus |
+|---------------|----------------|
+| 2 | +10 % |
+| 3 | +30 % |
+| 4 | +60 % |
+| 5 (complete) | +100 % |
+
+*Set bonuses stack multiplicatively with other effects but apply **only** to cum rate.* 
